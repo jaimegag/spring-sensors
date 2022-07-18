@@ -41,7 +41,7 @@ spec:
           value: /bindings
         - name: PORT
           value: "8080"
-        image: harbor.rito.tkg-vsp-lab.hyrulelab.com/tap:latest
+        image: harbor.rito.tkg-vsp-lab.hyrulelab.com/tap/spring-sensors-publisher:latest
         imagePullPolicy: IfNotPresent
         name: workload
         ports:
